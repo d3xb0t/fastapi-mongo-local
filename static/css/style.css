@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ff0534;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.input_data{
+    width: 30%;
+}
+
+.output_data{
+    width: 70%;
+}
+
+form{
+    background-color: white;
+    border-radius: 3px;
+    width: 340px;
+    margin: 30px auto;
+    padding: 15px;
+    color: dimgrey;
+    font-size: 0.8em;
+}
+
+input{
+    outline: none;
+    border: 0;
+    width: 310px;
+}
+
+.display{
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 3px;
+    width: 900px;
+    height: 561px;
+    overflow-y: scroll
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 13px;
+}
+
+.field:focus{
+    border-color: #006465;
+}
+
+.centrar_texto{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-green{
+    color: white;
+    background-color: #006465;
+}
+
+.btn-green:hover{
+    background-color: #459a96;
+}
+
+.btn-green:active{
+    background-color: #466067;
+}
+
+p{
+    padding: 15px 0 15px 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: none
+  }
+  
+  thead th:nth-child(1) {
+    width: 10%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 40%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 10%;
+  }
+
+  thead th:nth-child(5) {
+    width: 20%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .shadow{
+    background-color: #459a96;
+  }
+
+  tr{
+    border: solid 1px  #ccc;
+  }

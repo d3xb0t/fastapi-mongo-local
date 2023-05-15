@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body onload="load()">
+    <main>
+        <section class="input_data">
+            <form id="form">
+            <!-- <form id="form" action="http://localhost:8000/books" enctype="application/x-www-form-urlencoded" method="post"> -->
+                <p>Id</p>
+                <input class="field" type="text" name="id">
+                <p>Title</p>
+                <input class="field" type="text" name="title">
+                <p>Author</p>
+                <input class="field" type="text" name="author">
+                <p>Price</p>
+                <input class="field" type="text" name="price">
+                <p>Publisher</p>
+                <input class="field" type="text" name="publisher">
+                <p class="centrar_texto"><input class="btn btn-green" type="submit" value="Enviar Producto"></p>
+            </form>
+        </section>
+        <section class="output_data">
+            <div class="display">
+                <div id="contenedor"></div>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
